@@ -1,4 +1,4 @@
-#PORTFOLIO             
+# PORTFOLIO             
                                                                                                                                     Welcome to my portfolio.I am Emmanuel Agyemang an Msc International Economics student at the universite de Orleans.The below projects hightlight some of my skills and experiences 
 
 # I.Customer Retention Analysis — SQL and Power BI
