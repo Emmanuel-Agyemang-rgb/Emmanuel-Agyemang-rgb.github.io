@@ -1,4 +1,7 @@
-# Customer Retention Analysis — SQL and Power BI
+#PORTFOLIO
+Welcome to my portfolio.I am Emmanuel Agyemang an Msc International Economics student at the universite de Orleans.The below projects hightlight some of my skills and experiences 
+
+# I.Customer Retention Analysis — SQL and Power BI
 
 Reducing bank customer churn by turning two messy spreadsheet exports into a clean data model and two focused Power BI dashboards.
 
