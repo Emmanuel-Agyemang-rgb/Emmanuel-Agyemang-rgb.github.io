@@ -8,7 +8,7 @@ Reducing bank customer churn by turning two messy spreadsheet exports into a cle
 
 ## The Problem
 
-A retail bank was losing roughly 1 in 5 customers a year, and nobody could say exactly why. The raw data lived in two linked spreadsheets full of the usual real-world mess that consists of inconsistent country spellings, currency symbols stored as text, a duplicate record. So, before anyone could ask "why are people leaving," the data had to be trustworthy first. This project cleans that data with SQL, then surfaces the patterns that actually predict churn.
+A retail bank was losing roughly 1 in 5 customers a year, and nobody could say exactly why. The raw data lived in two linked spreadsheets full of the usual real-world mess that consists of inconsistent country spellings, currency symbols stored as text, and a duplicate record. So, before anyone could ask "why are people leaving," the data had to be trustworthy first. This project cleans that data with SQL, then surfaces the patterns that actually predict churn.
 
 ## Dataset
 
@@ -44,11 +44,11 @@ A retail bank was losing roughly 1 in 5 customers a year, and nobody could say e
 
 ## Key Insights
 
-- Overall churn sits at **20.4%** — high enough to matter, but concentrated in a few clear pockets rather than spread evenly
-- **Product count is the strongest signal in the data**: churn is just 7.6% at 2 products, but jumps to 82.7% at 3 and 100% at 4 — over-selling without matching service is actively pushing people out
-- **Germany churns at 32.4%**, roughly double France and Spain.This points to a market-specific issue, not a random blip
-- **Inactive members churn almost twice as often** as active ones (26.9% vs 14.3%), and churned customers carry *higher* average balances (€91K vs €73K). The bank is often losing its more valuable, disengaged customers
-- **Risk climbs sharply with age**, peaking at 56.2% in the 51-60 band, while tenure alone barely moves the needle
+- Overall churn sits at 20.4% — high enough to matter, but concentrated in a few clear pockets rather than spread evenly
+- Product count is the strongest signal in the data: churn is just 7.6% at 2 products, but jumps to 82.7% at 3 and 100% at 4 — over-selling without matching service is actively pushing people out
+- Germany churns at 32.4%, roughly double France and Spain. This points to a market-specific issue, not a random blip
+- Inactive members churn almost twice as often as active ones (26.9% vs 14.3%), and churned customers carry *higher* average balances (€91K vs €73K). The bank is often losing its more valuable, disengaged customers
+- Risk climbs sharply with age, peaking at 56.2% in the 51-60 band, while tenure alone barely moves the needle
 
 ## Recommendations
 
@@ -98,11 +98,11 @@ A small coffee shop chain with three New York locations had six months of point-
 
 ## Key Insights
 
-- Revenue more than **doubled over the period**  From $82K in January to $166K in June, a **104% increase**
-- The three stores are **remarkably balanced**: each brings in roughly a third of total revenue, within $7K of each other.It shows growth isn't being carried by one location
-- **Coffee and tea make up ~67% of all revenue**, with Barista Espresso and Brewed Chai tea the two single biggest product types
-- Sales are heavily concentrated in the morning: the **7-10am window drives ~40% of daily revenue**, with a sharp drop-off after 11am
-- Weekends trail weekdays slightly in revenue, and **Lower Manhattan has the highest average order value** ($4.81) of the three stores
+- Revenue more than doubled over the period  From $82K in January to $166K in June, a 104% increase
+- The three stores are remarkably balanced: each brings in roughly a third of total revenue, within $7K of each other.It shows growth isn't being carried by one location
+- Coffee and tea make up ~67% of all revenue, with Barista Espresso and Brewed Chai tea the two single biggest product types
+- Sales are heavily concentrated in the morning: the 7-10am window drives ~40% of daily revenue, with a sharp drop-off after 11am
+- Weekends trail weekdays slightly in revenue, and Lower Manhattan has the highest average order value ($4.81) of the three stores
 
 ## Recommendations
 
