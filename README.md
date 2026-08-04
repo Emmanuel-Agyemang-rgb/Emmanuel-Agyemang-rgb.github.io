@@ -94,7 +94,7 @@ A small coffee shop chain with three New York locations had six months of point-
 
 **Sales Deep-Dive** — revenue by hour of day, top products by revenue, units sold by category, average order value by store
 
-![Sales Deep-Dive](PowerBI/Dashboard_2_Sales_DeepDive.png)
+![Sales Deep-Dive](Dashboard_1_Executive_Overview.png)
 
 ## Key Insights
 
