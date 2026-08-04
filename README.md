@@ -26,10 +26,10 @@ A retail bank was losing roughly 1 in 5 customers a year, and nobody could say e
 
 ## Process
 
-1. **Clean** — strip currency symbols, standardise geography spellings, convert `Yes/No` flags to `1/0`, drop the duplicate record → [`01_data_cleaning.sqll`]([01_data_cleaning.sq])
+1. **Clean** — strip currency symbols, standardise geography spellings, convert `Yes/No` flags to `1/0`, drop the duplicate record 
 2. **Join** — merge the two source tables into a single Churn_Master table (10,001 + 10,002 messy rows  exactly 10,000 clean, unique customers)
-3. **Analyse** — KPI, segment, and risk-list queries that power both dashboards → [`SQL/02_churn_analysis_queries.sql`](SQL/02_churn_analysis_queries.sql)
-4. **Visualise** — load [`Data/Churn_Master_Cleaned.csv`]Churn_Master_Cleaned.csv) into Power BI, build DAX measures ([`PowerBI/DAX_Measures.txt`](PowerBI/DAX_Measures.txt)), and design two report pages
+3. **Analyse** — KPI, segment, and risk-list queries that power both dashboards
+4. **Visualise** — load [`Data/Churn_Master_Cleaned.csv`]Churn_Master_Cleaned.csv) into Power BI
 
 ## Dashboards
 
@@ -84,7 +84,7 @@ A small coffee shop chain with three New York locations had six months of point-
 2. **Summarise (Excel)** — a pivot-style summary built entirely from `SUMIF` formulas: revenue by store, category, month, weekday, and hour — confirming the sample told the same story the full dataset later would
 3. **Clean & scale (SQL)** — the raw `Transactions` table rebuilt as `Sales_Master` across the complete 149,116 rows: revenue calculated as `quantity × unit price`, timestamps split into hour/weekday/month → [`SQL/01_data_cleaning.sql`](SQL/01_data_cleaning.sql)
 4. **Analyse (SQL)** — KPI, trend, and product-ranking queries that power both dashboards → [`SQL/02_sales_analysis_queries.sql`](SQL/02_sales_analysis_queries.sql)
-5. **Visualise (Power BI)** — [`Data/Coffee_Sales_Cleaned.csv`](Data/Coffee_Sales_Cleaned.csv) loaded into Power BI, DAX measures built ([`PowerBI/DAX_Measures.txt`](PowerBI/DAX_Measures.txt)), two report pages designed
+5. **Visualise (Power BI)** — [`Data/Coffee_Sales_Cleaned.csv`](Data/Coffee_Sales_Cleaned.csv) loaded into Power BI
 
 ## Dashboards
 
