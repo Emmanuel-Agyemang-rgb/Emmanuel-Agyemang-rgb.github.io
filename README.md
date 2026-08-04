@@ -98,7 +98,7 @@ A small coffee shop chain with three New York locations had six months of point-
 
 ## Key Insights
 
-- Revenue more than **doubled over the period** — from $82K in January to $166K in June, a **104% increase**
+- Revenue more than **doubled over the period**  From $82K in January to $166K in June, a **104% increase**
 - The three stores are **remarkably balanced**: each brings in roughly a third of total revenue, within $7K of each other.It shows growth isn't being carried by one location
 - **Coffee and tea make up ~67% of all revenue**, with Barista Espresso and Brewed Chai tea the two single biggest product types
 - Sales are heavily concentrated in the morning: the **7-10am window drives ~40% of daily revenue**, with a sharp drop-off after 11am
@@ -106,7 +106,7 @@ A small coffee shop chain with three New York locations had six months of point-
 
 ## Recommendations
 
-- Staff and stock more heavily for the 7-10am rush specifically — this window has an outsized revenue impact
+- Staff and stock more heavily for the 7-10am rush specifically.This window has an outsized revenue impact
 - Lean into the growth trend with a mid-year push (loyalty offers, extended hours) before the typical summer plateau
 - Test a weekend-specific promotion to close the gap with weekday revenue
 - Use Lower Manhattan's higher average order value as a model for the other two stores
