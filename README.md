@@ -36,7 +36,7 @@ A retail bank was losing roughly 1 in 5 customers a year, and nobody could say e
 
 **Executive Overview** — headline KPIs, churn by geography, activity status, gender, and number of products held
 
-![Executive Overview](Dashboard Churn Overview.png).
+![Churn Overview](Dashboard Churn Overview.png).
 
 **Churn Deep-Dive** — churn by age band, balance comparison, zero-balance vs funded accounts, credit card ownership, and tenure trend
 
@@ -90,7 +90,7 @@ A small coffee shop chain with three New York locations had six months of point-
 
 **Executive Overview** — headline KPIs, monthly revenue trend, revenue by store, revenue by category, revenue by weekday
 
-![Executive Overview](Dashboard Sales Overview.png).
+![Sales Overview](Dashboard Sales Overview.png).
 
 **Sales Deep-Dive** — revenue by hour of day, top products by revenue, units sold by category, average order value by store
 
