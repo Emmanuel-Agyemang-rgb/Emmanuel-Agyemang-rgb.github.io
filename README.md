@@ -26,7 +26,7 @@ A retail bank was losing roughly 1 in 5 customers a year, and nobody could say e
 
 ## Process
 
-1. **Clean** — strip currency symbols, standardise geography spellings, convert `Yes/No` flags to `1/0`, drop the duplicate record → [`SQL/01_data_cleaning.sql`](SQL/01_data_cleaning.sql)
+1. **Clean** — strip currency symbols, standardise geography spellings, convert `Yes/No` flags to `1/0`, drop the duplicate record → [`01_data_cleaning.sqll`](SQL/01_data_cleaning.sql)
 2. **Join** — merge the two source tables into a single `Churn_Master` table (10,001 + 10,002 messy rows → exactly 10,000 clean, unique customers)
 3. **Analyse** — KPI, segment, and risk-list queries that power both dashboards → [`SQL/02_churn_analysis_queries.sql`](SQL/02_churn_analysis_queries.sql)
 4. **Visualise** — load [`Data/Churn_Master_Cleaned.csv`](Data/Churn_Master_Cleaned.csv) into Power BI, build DAX measures ([`PowerBI/DAX_Measures.txt`](PowerBI/DAX_Measures.txt)), and design two report pages
