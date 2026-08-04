@@ -29,7 +29,7 @@ A retail bank was losing roughly 1 in 5 customers a year, and nobody could say e
 1. **Clean** — strip currency symbols, standardise geography spellings, convert `Yes/No` flags to `1/0`, drop the duplicate record 
 2. **Join** — merge the two source tables into a single Churn_Master table (10,001 + 10,002 messy rows  exactly 10,000 clean, unique customers)
 3. **Analyse** — KPI, segment, and risk-list queries that power both dashboards
-4. **Visualise** — load [`Data/Churn_Master_Cleaned.csv`]Churn_Master_Cleaned.csv) into Power BI
+4. **Visualise** — load [Data/Churn_Master_Cleaned.csv]Churn_Master_Cleaned.csv) into Power BI
 
 ## Dashboards
 
@@ -63,11 +63,11 @@ Understanding revenue growth, peak hours and top sellers for a 3-store NYC coffe
 
 ## The Problem
 
-A small coffee shop chain with three New York locations had six months of point-of-sale data and no easy way to read it. The owners could see the register totals each day, but they couldn't answer the questions that actually drive decisions: which store is pulling its weight, when is the shop busiest, which products are worth the counter space, and is the business actually growing. The raw export was a single 149,000-row transaction log — accurate, but unusable without structure.
+A small coffee shop chain with three New York locations had six months of point-of-sale data and no easy way to read it. The owners could see the register totals each day, but they couldn't answer the questions that actually drive decisions: which store is pulling its weight, when is the shop busiest, which products are worth the counter space, and is the business actually growing? The raw export was a single 149,000-row transaction log — accurate, but unusable without structure.
 
 ## Dataset
 
-149,116 individual transactions across three stores (Lower Manhattan, Hell's Kitchen, Astoria) from January to June 2023 — each row a single item sold, with quantity, unit price, product category/type/detail, store, date and time. The data was already well-formed (no missing values, no duplicate transactions), so the work was reshaping it — calculating revenue, extracting hour/weekday/month — rather than heavy repair.
+149,116 individual transactions across three stores (Lower Manhattan, Hell's Kitchen, Astoria) from January to June 2023, each row a single item sold, with quantity, unit price, product category/type/detail, store, date, and time. The data was already well-formed (no missing values, no duplicate transactions), so the work was reshaping it. That is,  calculating revenue, extracting hour/weekday/month — rather than heavy repair.
 
 ## Tools Used
 
@@ -80,11 +80,11 @@ A small coffee shop chain with three New York locations had six months of point-
 
 ## Process
 
-1. **Check (Excel)** — a 5%, month-stratified sample of the raw export (~7,500 rows — representative, but small enough for formulas to stay fast) run through `COUNTIF`/`COUNTA` checks for nulls, duplicates, and inconsistent store or category names → [`Excel/Coffee_Sales_Excel_Analysis.xlsx`](Excel/Coffee_Sales_Excel_Analysis.xlsx)
-2. **Summarise (Excel)** — a pivot-style summary built entirely from `SUMIF` formulas: revenue by store, category, month, weekday, and hour — confirming the sample told the same story the full dataset later would
-3. **Clean & scale (SQL)** — the raw `Transactions` table rebuilt as `Sales_Master` across the complete 149,116 rows: revenue calculated as `quantity × unit price`, timestamps split into hour/weekday/month → [`SQL/01_data_cleaning.sql`](SQL/01_data_cleaning.sql)
-4. **Analyse (SQL)** — KPI, trend, and product-ranking queries that power both dashboards → [`SQL/02_sales_analysis_queries.sql`](SQL/02_sales_analysis_queries.sql)
-5. **Visualise (Power BI)** — [`Data/Coffee_Sales_Cleaned.csv`](Data/Coffee_Sales_Cleaned.csv) loaded into Power BI
+1. **We Check Excel ** — a 5%, month-stratified sample of the raw export (~7,500 rows — representative, but small enough for formulas to stay fast) run through COUNTIF/COUNTA checks for nulls, duplicates, and inconsistent store or category names → [Excel/Coffee_Sales_Excel_Analysis.xlsx](Excel/Coffee_Sales_Excel_Analysis.xlsx)
+2. **Summarise (Excel)** — a pivot-style summary built entirely from SUMIF formulas: revenue by store, category, month, weekday, and hour — confirming the sample told the same story the full dataset later would
+3. **Clean & scale (SQL)** — the raw Transactions table rebuilt as Sales_Master across the complete 149,116 rows: revenue calculated as `quantity × unit price`, timestamps split into hour/weekday/month → [SQL/01_data_cleaning.sql](SQL/01_data_cleaning.sql)
+4. **Analyse (SQL)** — KPI, trend, and product-ranking queries that power both dashboards → [SQL/02_sales_analysis_queries.sql](SQL/02_sales_analysis_queries.sql)
+5. **Visualise (Power BI)** — [Data/Coffee_Sales_Cleaned.csv](Data/Coffee_Sales_Cleaned.csv) loaded into Power BI
 
 ## Dashboards
 
