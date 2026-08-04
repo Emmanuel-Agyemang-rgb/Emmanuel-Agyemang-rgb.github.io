@@ -1,6 +1,6 @@
 # PORTFOLIO              
 
-Welcome to my projects. I am Emmanuel Agyemang,an Msc International Economics student at the Université d'Orléans,France. The projects below highlight some of my skills and experience.
+Welcome to my projects. I am Emmanuel Agyemang,an Msc International Economics student at the Université d'Orléans,France. The projects below highlight some of my skills and experience.[View on GitHub]()
 
 # I.Customer Retention Analysis — SQL and Power BI
 
