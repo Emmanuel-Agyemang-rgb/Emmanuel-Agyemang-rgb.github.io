@@ -90,7 +90,7 @@ A small coffee shop chain with three New York locations had six months of point-
 
 **Executive Overview** — headline KPIs, monthly revenue trend, revenue by store, revenue by category, revenue by weekday
 
-![Sales Overview](Dashboard Sales Overview.png).
+![Sales Overview](Dashboard_1_Executive_Overview.png).
 
 **Sales Deep-Dive** — revenue by hour of day, top products by revenue, units sold by category, average order value by store
 
