@@ -40,7 +40,7 @@ A retail bank was losing roughly 1 in 5 customers a year, and nobody could say e
 
 **Churn Deep-Dive** — churn by age band, balance comparison, zero-balance vs funded accounts, credit card ownership, and tenure trend
 
-![Churn Deep-Dive](Dashboard_2_Churn_DeepDive.png)
+![Churn Deep-Dive](Dashboard_2_Churn_DeepDive.png) 
 
 ## Key Insights
 
