@@ -1,6 +1,6 @@
 # PORTFOLIO              
 
-Welcome to my projects.I am Emmanuel Agyemang,an Msc International Economics student at the universite de Orleans,France.The below projects hightlight some of my skills and experiences.
+Welcome to my projects. I am Emmanuel Agyemang,an Msc International Economics student at the Université d'Orléans,France. The projects below highlight some of my skills and experience.
 
 # I.Customer Retention Analysis — SQL and Power BI
 
@@ -8,22 +8,21 @@ Reducing bank customer churn by turning two messy spreadsheet exports into a cle
 
 ## The Problem
 
-A retail bank was losing roughly 1 in 5 customers a year, and nobody could say exactly why. The raw data lived in two linked spreadsheets full of the usual real-world mess that consists of inconsistent country spellings, currency symbols stored as text, and a duplicate record. So, before anyone could ask "why are people leaving," the data had to be trustworthy first. This project cleans that data with SQL, then surfaces the patterns that actually predict churn.
+A retail bank was losing roughly 1 in 5 customers a year, and nobody could say exactly why. The raw data lived in two linked spreadsheets full of the usual real-world mess that consists of inconsistent country spellings, currency symbols stored as text, and duplicate records. So, before anyone could ask "why are people leaving," the data had to be trustworthy first. This project cleans that data with SQL, then surfaces the patterns that actually predict churn.
 
 ## Dataset
 
-10,000 bank customers with demographics (age, gender, geography), account details (balance, tenure, products held, credit card status) and a churn flag. Sourced from two linked tables:
+10,000 bank customers with demographics (age, gender, geography), account details (balance, tenure, products held, credit card status), and a churn flag. Sourced from two linked tables:
 
 - Customer_Info — 10,001 rows, mixed geography spellings (France / FRA/ French)
 - Account_Info — 10,002 rows, balances stored as text (€159660.8), one duplicate CustomerId
 
 ## Tools Used
+| **SQL** | Cleaning, standardising, and joining the raw tables into one analysis-ready table
 
-| Tool | Role |
-|---|---|
-| **SQL** | Cleaning, standardising, and joining the raw tables into one analysis-ready table |
-| **Power BI** | Data modelling, DAX measures, and the two dashboard pages |
-| **Excel** | Quick sense-checks on the raw exports before writing the cleaning logic |
+| **Power BI** | Data modelling, DAX measures, and the two dashboard pages 
+
+| **Excel** | Quick sense-checks on the raw exports before writing the cleaning logic 
 
 ## Process
 
@@ -72,11 +71,12 @@ A small coffee shop chain with three New York locations had six months of point-
 
 ## Tools Used
 
-| Tool | Role |
-|---|---|
-| **Excel** | First-pass data quality checks and a formula-driven pivot summary on a working sample, before scaling up |
-| **SQL (T-SQL)** | The repeatable, full-scale clean and every aggregate query behind the dashboards |
-| **Power BI** | Data modelling, DAX measures, and the two dashboard pages |
+
+| **Excel** | First-pass data quality checks and a formula-driven pivot summary on a working sample, before scaling up 
+
+| **SQL** | The repeatable, full-scale clean and every aggregate query behind the dashboards 
+
+| **Power BI** | Data modelling, DAX measures, and the two dashboard pages 
 
 ## Process
 
