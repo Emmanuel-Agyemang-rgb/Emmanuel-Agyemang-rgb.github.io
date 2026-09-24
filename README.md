@@ -2,7 +2,7 @@
 
 Welcome to my projects. I am Emmanuel Agyemang,an Msc International Economics student at the Université d'Orléans,France. The projects below highlight some of my skills and experience.[View files on GitHub](https://github.com/dashboard)
 
-# I.Customer Retention Analysis — SQL and Power BI
+# I.Customer Retention Analysis — SQL and Power BI 
 
 Reducing bank customer churn by turning two messy spreadsheet exports into a clean data model and two focused Power BI dashboards.
 
