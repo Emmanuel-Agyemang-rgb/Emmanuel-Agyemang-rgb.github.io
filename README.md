@@ -35,7 +35,7 @@ A retail bank was losing roughly 1 in 5 customers a year, and nobody could say e
 
 **Executive Overview** — headline KPIs, churn by geography, activity status, gender, and number of products held
 
-![Executive Overview](Dashboard_1_Executive_Overview 1.png)
+![Executive Overview](https://github.com/Emmanuel-Agyemang-rgb/Emmanuel-Agyemang-rgb.github.io/blob/36d3d1a5e9b63b7cadf31db3498cd806d28c5c31/Dashboard_1_Executive_Overview%201.png)
 
 **Churn Deep-Dive** — churn by age band, balance comparison, zero-balance vs funded accounts, credit card ownership, and tenure trend
 
