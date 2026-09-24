@@ -43,7 +43,7 @@ A retail bank was losing roughly 1 in 5 customers a year, and nobody could say e
 
 ## Key Insights
 
-- Overall churn sits at 20.4% — high enough to matter, but concentrated in a few clear pockets rather than spread evenly
+- Overall churn sits at 20.4%. High enough to matter, but concentrated in a few clear pockets rather than spread evenly
 - Product count is the strongest signal in the data: churn is just 7.6% at 2 products, but jumps to 82.7% at 3 and 100% at 4 — over-selling without matching service is actively pushing people out
 - Germany churns at 32.4%, roughly double France and Spain. This points to a market-specific issue, not a random blip
 - Inactive members churn almost twice as often as active ones (26.9% vs 14.3%), and churned customers carry *higher* average balances (€91K vs €73K). The bank is often losing its more valuable, disengaged customers
@@ -59,11 +59,11 @@ A retail bank was losing roughly 1 in 5 customers a year, and nobody could say e
 
 # 2.Coffee Shop Sales Performance Analysis.
 
-Understanding revenue growth, peak hours and top sellers for a 3-store NYC coffee chain by moving from a raw POS export to a clean data model and two focused Power BI dashboards.
+Understanding revenue growth, peak hours, and top sellers for a 3-store NYC coffee chain by moving from a raw POS export to a clean data model and two focused Power BI dashboards.
 
 ## The Problem
 
-A small coffee shop chain with three New York locations had six months of point-of-sale data and no easy way to read it. The owners could see the register totals each day, but they couldn't answer the questions that actually drive decisions: which store is pulling its weight, when is the shop busiest, which products are worth the counter space, and is the business actually growing? The raw export was a single 149,000 row transaction log accurate, but unusable without structure.
+A small coffee shop chain with three New York locations had six months of point-of-sale data and no easy way to read it. The owners could see the register totals each day. Still, they couldn't answer the questions that drive decisions: which store is pulling its weight, when the shop is busiest, which products are worth the counter space, and whether the business is actually growing. The raw export was a single 149,000-row transaction log, accurate but unusable without structure.
 
 ## Dataset
 
